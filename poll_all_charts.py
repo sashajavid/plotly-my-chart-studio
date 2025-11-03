@@ -9,8 +9,8 @@ import requests
 import os
 import json
 
-username = 'your-username'  # Replace with your Chart Studio username
-api_key = 'your-api-key'    # Replace with your API key from Chart Studio
+username = 'sashajavid'  # Replace with your Chart Studio username
+api_key = 'LOIqBqj4woYIfGVP2wCo'    # Replace with your API key from Chart Studio
 
 headers = {"Plotly-Client-Platform": "Python 3 0.3.2"}
 auth = requests.auth.HTTPBasicAuth(username, api_key)
